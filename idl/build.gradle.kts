@@ -44,3 +44,11 @@ protobuf {
         }
     }
 }
+
+sourceSets {
+    main {
+        java.srcDir("build/generated/source/main/grpckt")
+        java.srcDir("build/generated/source/main/grpc")
+        java.srcDir("build/generated/source/main/java")
+    }
+}
